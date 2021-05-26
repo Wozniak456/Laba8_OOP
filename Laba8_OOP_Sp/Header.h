@@ -17,4 +17,5 @@ public:
 	int FindNumOfElsThatMore(float data);
 	float FindElsThatLess(float data);
 	void PrintList();
+	LinkedList1();
 };

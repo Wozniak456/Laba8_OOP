@@ -6,6 +6,10 @@ Element::Element(float data)
 {
 	Data = data;
 }
+LinkedList1::LinkedList1() 
+{
+	head = NULL;
+}
 void LinkedList1::Add(float data)
 {
 	Element* el = new Element(data);

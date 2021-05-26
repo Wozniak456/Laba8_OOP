@@ -3,16 +3,18 @@
 using namespace std;
 int main()
 {
-    cout << "Vozniak Sofiia is-01";
+    cout << "Vozniak Sofiia is-01" <<endl;
     LinkedList1 linkedList;
-    linkedList.Add(0.232F);
-    linkedList.Add(234.1234F);
-    linkedList.Add(23.0F);
-    linkedList.Add(12.211221F);
+    linkedList.Add(0.232f);
+    linkedList.Add(4.1234f);
+    linkedList.Add(23.0f);
+    linkedList.Add(12.211221f);
+    cout << "Current list" << endl;
     linkedList.PrintList();
-    cout << "Count of nums, that are more than 10.5:" << linkedList.FindNumOfElsThatMore(10.5F) << endl;
-    cout << "Nums that are less than 2.6: " << endl;
-    linkedList.Remove(2.6F);
+    cout << "Count of nums, that are more than 10,5 : " << linkedList.FindNumOfElsThatMore(10.5f) << endl;
+    cout << "~ Extracting all nums, that are less than 2,6 ~" << endl;
+    cout << "Current list" << endl;
+    linkedList.Remove(2.6f);
     linkedList.PrintList();
 }
 
